@@ -26,6 +26,7 @@ from social_auth.backends import BaseOAuth2, OAuthBackend, USERNAME
 from social_auth.utils import sanitize_log_data
 
 
+#
 # Facebook configuration
 EXPIRES_NAME = getattr(settings, 'SOCIAL_AUTH_EXPIRATION', 'expires')
 
